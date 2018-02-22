@@ -50,7 +50,7 @@ class HomeController: UICollectionViewController,UICollectionViewDelegateFlowLay
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//Hi SK This is Dummy changes
         self.navigationController?.navigationBar.isTranslucent = false
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width - 32, height: view.frame.height))
         titleLabel.text = "  Home"
